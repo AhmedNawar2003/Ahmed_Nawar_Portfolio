@@ -4,7 +4,8 @@ import Projects from "../components/Projects/Projects.jsx";
 import Skills from "../components/Skills/Skills.jsx";
 import Contact from "../components/Contact/Contact";
 import About from '../components/About/About.jsx';
-
+import Education from '../components/Education/Education.jsx';
+import Courses from './../components/Courses/Courses';
 export default function Home() {
   return (
     <>
@@ -26,6 +27,8 @@ export default function Home() {
       </Head>
       <Hero />
       <About />
+      <Education/>
+      <Courses/>
       <Projects />
       <Skills />
       <Contact />

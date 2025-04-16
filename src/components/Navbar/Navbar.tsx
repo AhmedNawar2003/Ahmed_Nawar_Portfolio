@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { navlinks } from "../../constants/navlinks.js";
 import NavLinkMobile from "../NavLinkMobile.jsx";
-
+import { FaLaptopCode } from "react-icons/fa";
 export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -34,7 +34,14 @@ export default function Navbar() {
     >
       <nav className="px-6 py-4 w-full">
         <div className="container  flex items-center md:gap-8 mx-2">
-          <h1 className="text-xl font-bold text-white">Ahmed Nawar</h1>
+        <Link
+          href="/"
+          className="flex items-center gap-2 text-2xl font-bold text-white"
+        >
+          <FaLaptopCode className="text-blue-400" title="Frontend Developer" />
+          <span className="text-[15px] md:text-[18px] font-bold text-white">Ahmed | Front-End Developer</span>
+        </Link>
+          {/* <h1 className="text-xl font-bold text-white">Ahmed | Front-End Developer</h1> */}
           <ul className="hidden md:flex gap-8 capitalize ml-auto">
             {navlinks.map((link, index) => (
               <li key={index}>

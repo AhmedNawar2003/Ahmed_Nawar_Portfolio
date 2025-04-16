@@ -4,6 +4,20 @@ import Footer from "../components/Footer/Footer.jsx";
 import Navbar from "@/components/Navbar/Navbar";
 import { Poppins } from "next/font/google";
 import AnimatedBackground from "@/components/AnimatedBackground";
+import { Outfit } from "next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
+
+const jakarta = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+  display: "swap",
+});
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+  display: "swap",
+});
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -38,7 +52,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} antialiased bg-slate-900 text-slate-400 text-lg min-h-screen overflow-x-hidden relative`}
+        className={`${outfit.className} antialiased bg-slate-900 text-slate-400 text-lg min-h-screen overflow-x-hidden relative`}
       >
         <AnimatedBackground />
         <Navbar />

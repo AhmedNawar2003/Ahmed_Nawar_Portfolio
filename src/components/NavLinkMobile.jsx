@@ -21,7 +21,7 @@ export default function NavLinkMobile() {
         {!isOpen ? <Menu /> : <X />}
       </div>
       <figure
-        className={`absolute text-white rounded-md right-2 origin-top top-20 ${
+        className={`absolute text-white rounded-md  right-2 origin-top top-20 ${
           isOpen
             ? "scale-y-100 opacity-100 visible"
             : "scale-y-50 opacity-0 hidden"
