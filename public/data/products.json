@@ -1,0 +1,52 @@
+[
+    {
+      "title": "Clothing App",
+      "live": "https://sprightly-cupcake-71cf4a.netlify.app",
+      "code": "https://github.com/AhmedNawar2003/Clothing_App",
+      "image": "/images/clothing.png",
+      "description": "E-commerce platform built with React, React Router, Bootstrap & Context API."
+    },
+    {
+      "title": "Vegist App",
+      "live": "https://legendary-croissant-a89b71.netlify.app",
+      "code": "https://github.com/AhmedNawar2003/Vegist_App",
+      "image": "/images/vegist.png",
+      "description": "Food ordering platform using HTML, CSS, JS & Bootstrap."
+    },
+    {
+      "title": "FitMeal App",
+      "live": "https://wonderful-quokka-68596a.netlify.app",
+      "code": "https://github.com/AhmedNawar2003/Mealing_Website",
+      "image": "/images/fitmeal.png",
+      "description": "Fitness-focused meal planner using HTML, CSS, Bootstrap, and JavaScript."
+    },
+    {
+      "title": "Mulk App",
+      "live": "https://timely-creponne-7b8f58.netlify.app",
+      "code": "https://github.com/AhmedNawar2003/Mulk_App",
+      "image": "/images/mulk.png",
+      "description": "Real estate listing website with HTML, CSS, and Bootstrap."
+    },
+    {
+      "title": "Burger App",
+      "live": "https://verdant-queijadas-4610c7.netlify.app",
+      "code": "https://github.com/AhmedNawar2003/Burger-project",
+      "image": "/images/burger.png",
+      "description": "Responsive burger shop website using HTML, CSS, and Bootstrap."
+    },
+    {
+      "title": "KinderGarten App",
+      "live": "https://calm-sunshine-fd8918.netlify.app",
+      "code": "https://github.com/AhmedNawar2003/kinden-children-project",
+      "image": "/images/kindergarten.png",
+      "description": "Kindergarten info platform with colorful and kid-friendly UI."
+    },
+    {
+      "title": "Nooni App",
+      "live": "https://elaborate-puffpuff-a536a7.netlify.app",
+      "code": "https://github.com/AhmedNawar2003/Nooni_App",
+      "image": "/images/nooni.png",
+      "description": "Product showcase site optimized for performance and compatibility."
+    }
+  ]
+  

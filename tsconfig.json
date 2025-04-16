@@ -22,6 +22,12 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/page.jsx"
+, "src/app/layout.tsx", "src/components/NavLinkMobile.jsx", "src/components/Projects/Projects.jsx"  ],
   "exclude": ["node_modules"]
 }
