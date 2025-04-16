@@ -28,62 +28,70 @@ export default function Projects() {
   return (
     <section id="projects" className="py-16 px-4">
       <div className="max-w-6xl mx-auto">
-        <h3 className="text-3xl font-bold text-white mb-10  flex items-center justify-center gap-2">
-          <IoMdCodeWorking className="text-4xl text-sky-600" />
+        <h3 className="md:text-3xl font-bold text-white mb-10 text-center flex items-center justify-center gap-2">
+          <IoMdCodeWorking className="md:text-4xl text-sky-600" />
           Projects
         </h3>
         <p className="text-center text-white mb-8">
-          Here are some of my projects that I have worked on. You can check them
-          out and see what I can do. I am always looking for new challenges and
-          opportunities to learn and grow as a developer. If you have any
-          questions or feedback, feel free to reach out to me. I would love to
-          hear from you and connect with you. Thank you for visiting my
-          portfolio and checking out my work. I hope you enjoy it as much as I
-          enjoyed creating it.
+          Here are some of my projects that I have worked on...
         </p>
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 perspective cursor-pointer">
           {projects.map((project, index) => (
             <div
               key={index}
               data-aos="fade-up"
-              className="group relative bg-white rounded-xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-500 transform "
+              className="flip-card bg-transparent w-full h-80 cursor-pointer"
             >
-              <div className="relative h-52 w-full overflow-hidden">
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-500 cursor-pointer"
-                />
-              </div>
-              <div className="p-5">
-                <h4 className="text-xl font-bold text-black mb-2 capitalize">
-                  {project.title}
-                </h4>
-                <p className="text-black capitalize text-sm mb-4">
-                  {project.description}
-                </p>
-                <div className="flex justify-between items-center text-sm">
-                  {project.live && (
+              <div className="flip-card-inner relative w-full h-full transition-transform duration-700 transform-style-preserve-3d hover:rotate-y-180">
+                {/* Front Side */}
+                <div className="flip-card-front absolute w-full h-full backface-hidden bg-white rounded-xl shadow-xl overflow-hidden">
+                  <div className="relative h-40 w-full">
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h4 className="text-sm md:text-xl font-bold text-black mb-2 capitalize">
+                      {project.title}
+                    </h4>
+                    <p className="text-sm md:text-xl text-black capitalize">
+                      {project.description.slice(0, 60)}...
+                    </p>
+                  </div>
+                </div>
+
+                {/* Back Side */}
+                <div className="flip-card-back absolute w-full h-full backface-hidden rotate-y-180 bg-sky-800 text-white rounded-xl shadow-xl p-5 flex flex-col justify-between cursor-pointer">
+                  <h4 className="text-sm md:text-xl font-bold mb-2 capitalize">
+                    {project.title}
+                  </h4>
+                  <p className="text-sm md:text-xl mb-4">{project.description}</p>
+                  <div className="flex justify-between items-center mt-auto">
+                    {project.live && (
+                      <Link
+                        href={project.live}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-white text-black p-3 rounded-full"
+                        aria-label="Live Demo"
+                      >
+                        <FaEye className="text-sm md:text-xl" />
+                      </Link>
+                    )}
                     <Link
-                      href={project.live}
+                      href={project.code}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-500   p-3 rounded-full transition"
-                      aria-label="Live Demo"
+                      className="bg-white text-black p-3 rounded-full"
+                      aria-label="Source Code"
                     >
-                      <FaEye className="text-xl" />
+                      <FaGithub className="text-sm md:text-xl" />
                     </Link>
-                  )}
-                  <Link
-                    href={project.code}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-black   p-3 rounded-full transition"
-                    aria-label="Source Code"
-                  >
-                    <FaGithub className="text-xl" />
-                  </Link>
+                  </div>
                 </div>
               </div>
             </div>

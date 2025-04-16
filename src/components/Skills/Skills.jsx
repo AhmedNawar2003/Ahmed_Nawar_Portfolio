@@ -9,6 +9,7 @@ import {
   FaGitAlt,
   FaGithub,
 } from "react-icons/fa";
+import { GiSkills } from "react-icons/gi";
 import {
   SiTypescript,
   SiTailwindcss,
@@ -23,7 +24,10 @@ export default function Skills() {
     { icon: <FaSass className="text-pink-500" />, label: "Sass" },
     { icon: <FaJs className="text-yellow-400" />, label: "JavaScript" },
     { icon: <SiTypescript className="text-blue-500" />, label: "TypeScript" },
-    { icon: <FaReact className="text-cyan-400 animate-spin-slow" />, label: "React.js" },
+    {
+      icon: <FaReact className="text-cyan-400 animate-spin-slow" />,
+      label: "React.js",
+    },
     { icon: <SiNextdotjs className="text-white" />, label: "Next.js" },
     { icon: <FaBootstrap className="text-purple-500" />, label: "Bootstrap" },
     { icon: <SiTailwindcss className="text-sky-500" />, label: "Tailwind CSS" },
@@ -35,14 +39,17 @@ export default function Skills() {
   return (
     <section id="skills" className="py-16 px-4">
       <div className="max-w-5xl mx-auto text-center">
-        <h3 className="text-2xl font-bold text-white mb-8 capitalize">Skills</h3>
+        <h3 className="md:text-2xl font-bold text-white mb-8 capitalize flex items-center justify-center gap-2">
+          <GiSkills className="text-sky-500 text-3xl" />
+          Skills
+        </h3>
 
         <div className="overflow-hidden relative">
           <div className="flex animate-marquee whitespace-nowrap w-max overflow-hidden">
             {[...skills, ...skills].map((skill, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center mx-6 text-white text-4xl hover:scale-3d transition-transform duration-300 cursor-pointer"
+                className="flex flex-col items-center mx-6 text-white md:text-4xl hover:scale-3d transition-transform duration-300 cursor-pointer"
               >
                 {skill.icon}
                 <span className="text-sm mt-2">{skill.label}</span>
