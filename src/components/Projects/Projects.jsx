@@ -33,7 +33,7 @@ export default function Projects() {
           Projects
         </h3>
         <p className="text-center text-white mb-8">
-          Here are some of my projects that I have worked on...
+          Here are some of my projects that I have worked on recently.<br/>You can check them out by clicking on the icons below.
         </p>
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 perspective cursor-pointer">
