@@ -56,7 +56,7 @@ export default function RootLayout({
       >
         <AnimatedBackground />
         <Navbar />
-        {children}
+        <main className="max-w-screen-xl mx-auto px-4">{children}</main>
         <Footer />
       </body>
     </html>

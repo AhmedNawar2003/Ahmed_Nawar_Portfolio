@@ -9,7 +9,6 @@ export default function Education() {
             <FaUniversity className="text-blue-400" />
             Education
           </h2>
-
           <div className="relative border-l border-slate-700 pl-6">
             <div className="mb-10 relative">
               <div className="absolute left-[-18px] top-2 w-3 h-3 bg-blue-500 rounded-full border-4 border-gray-950"></div>
