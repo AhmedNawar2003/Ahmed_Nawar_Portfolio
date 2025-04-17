@@ -26,7 +26,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <section id="projects" className="py-16 px-4">
+    <section id="projects" className="py-4 md:py-12 px-4">
       <div className="max-w-6xl mx-auto">
         <h3 className="md:text-3xl font-bold text-white mb-10 text-center flex items-center justify-center gap-2">
           <IoMdCodeWorking className="md:text-4xl text-sky-600" />

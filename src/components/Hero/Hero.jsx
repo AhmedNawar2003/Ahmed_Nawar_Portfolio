@@ -4,7 +4,7 @@ import { FiDownload } from "react-icons/fi";
 
 export default function Hero() {
   return (
-    <section className="py-20">
+    <section className="py-10 md:py-16">
       <div className="container mx-auto px-4 flex flex-col-reverse md:flex-row items-center justify-between">
         <div className="w-full md:w-1/2 flex justify-center ">
           <Image

@@ -44,7 +44,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 px-4  text-white">
+    <section id="contact" className="py-4 md:py-16 px-4  text-white">
       <div className="max-w-4xl mx-auto text-center" data-aos="fade-up">
         <h3 className="md:text-4xl font-extrabold mb-6 flex items-center justify-center gap-2">
           <FaEnvelope className="text-blue-400" />
