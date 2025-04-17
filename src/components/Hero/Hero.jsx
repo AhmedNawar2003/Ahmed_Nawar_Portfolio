@@ -26,7 +26,7 @@ export default function Hero() {
           </p>
 
           <Link
-            href={"/assets/AHMED NAWAR (Last CV).pdf"}
+            href={"/assets/Ahmed Nawar CV Last Update.pdf"}
             download
             className="mb-5 md:mb-0 inline-flex items-center gap-2 mt-6 bg-blue-500 hover:bg-blue-800 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition-all duration-500"
           >
