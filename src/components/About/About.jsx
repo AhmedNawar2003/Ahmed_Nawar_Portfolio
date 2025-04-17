@@ -1,8 +1,8 @@
 import { FaUserTie } from "react-icons/fa";
 export default function About() {
   return (
-    <section className="py-12  text-white">
-      <div className="container  mx-auto px-4 xxl:mx-5">
+    <section className="py-12 xxl:px-12 text-white">
+      <div className="container  mx-auto px-4">
         <h2 className="md:text-3xl font-bold flex items-center gap-2 mb-6">
           <FaUserTie className="text-purple-400" />
           About Me

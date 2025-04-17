@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>Ahmed Nawar | Front-End Developer</title>
         <meta name="description" content="Portfolio of Ahmed Nawar" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#000000" />
         <meta name="keywords" content="Ahmed Nawar, Front-End Developer, Portfolio" />
         <meta name="author" content="Ahmed Nawar" />
