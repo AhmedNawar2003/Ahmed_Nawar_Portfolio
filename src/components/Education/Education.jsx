@@ -3,7 +3,7 @@ import { FaUniversity } from "react-icons/fa";
 export default function Education() {
   return (
     <div>
-      <section className="py-10 bg-slate-900 text-white">
+      <section className="py-10  text-white">
         <div className="container mx-auto px-4">
           <h2 className="md:text-3xl font-bold flex items-center gap-2 mb-8">
             <FaUniversity className="text-blue-400" />

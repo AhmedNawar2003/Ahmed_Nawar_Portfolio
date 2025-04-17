@@ -2,7 +2,7 @@ import { FaLaptopCode } from "react-icons/fa";
 
 export default function Courses() {
   return (
-    <section className="py-12 bg-slate-900 text-white">
+    <section className="py-12  text-white">
       <div className="container mx-auto px-4">
         <h2 className="md:text-3xl font-bold flex items-center gap-2 mb-8">
           <FaLaptopCode className="text-green-400" />
