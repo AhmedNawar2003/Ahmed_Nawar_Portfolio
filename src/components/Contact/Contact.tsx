@@ -9,13 +9,20 @@ import "aos/dist/aos.css";
 export default function Contact() {
   const form = useRef<HTMLFormElement>(null);
   const [messageSent, setMessageSent] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-    });
+    setIsMounted(true);
   }, []);
+
+  useEffect(() => {
+    if (isMounted) {
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    }
+  }, [isMounted]);
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
@@ -42,6 +49,10 @@ export default function Contact() {
         }
       );
   };
+
+  if (!isMounted) {
+    return null; // Prevent the component from rendering until client-side rendering is done
+  }
 
   return (
     <section id="contact" className="py-4 md:py-16 px-4  text-white">

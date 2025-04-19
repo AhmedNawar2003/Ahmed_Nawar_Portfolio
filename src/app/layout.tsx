@@ -28,14 +28,14 @@ export const metadata: Metadata = {
   title: "Ahmed Nawar Portfolio",
   description: "Ahmed Nawar's Portfolio",
   icons: {
-    icon: "/images/ahmed.jpg",
+    icon: "/images/abonawar_img.png",
   },
   openGraph: {
     title: "Ahmed Nawar Portfolio",
     description: "Welcome to my personal portfolio website.",
     images: [
       {
-        url: "/images/ahmed.jpg",
+        url: "/images/abonawar_img.png",
         width: 1200,
         height: 630,
         alt: "Ahmed Nawar Portfolio",
