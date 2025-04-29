@@ -4,7 +4,7 @@
     "live": "https://ahmed-nawar-portfolio.vercel.app/",
     "code": "https://github.com/AhmedNawar2003/Ahmed_Nawar_Portfolio",
     "image": "/images/portofolio.png",
-    "description": "A sleek and responsive personal portfolio website to showcase my skills, projects, and experience as a Front-End Developer. Built using modern technologies to deliver smooth animations, interactive UI, and an optimized user experience."
+    "description": "A modern and responsive developer portfolio built with Next.js, TypeScript, and Tailwind CSS — showcasing real-world projects, animations, and clean UI design."
   },
   {
     "title": "Clothing App",
@@ -18,7 +18,7 @@
     "live": "https://doctor-website-five.vercel.app/",
     "code": "https://github.com/AhmedNawar2003/Doctor_Website",
     "image": "/images/Doctor.png",
-    "description": "A responsive and accessible doctor booking interface built using React, Zustand, and TailwindCSS. This project was created as a frontend task and demonstrates clean UI design, reusable components, filtering logic, and smooth animations."
+    "description": "A responsive React app for browsing doctors and managing appointments with filtering and localStorage support."
   },
   {
     "title": "Vegist App",
@@ -66,13 +66,12 @@
     "title": "NextJs_Typescript_Project",
     "code": "https://github.com/AhmedNawar2003/Next-Js---tailwind-Css",
     "image": "/images/next-typeScript.jpg",
-    "description":"Modern Hero Section UI for a Next.js & TypeScript project, featuring a clean layout, responsive design, and developer-focused style. Perfect for landing pages, SaaS tools, or personal portfolios using Tailwind CSS and Framer Motion."
+    "description": "A full-featured web app built with Next.js and TypeScript, featuring responsive design, clean architecture, and smooth animations using Tailwind CSS and Framer Motion"
   },
   {
     "title": "Js Projects",
     "code": "https://github.com/AhmedNawar2003/javascript-projects",
     "image": "/images/js-projects.jpg",
-    "description":"A collection of mini JavaScript projects focused on DOM manipulation, events, and UI logic — built with vanilla JS, HTML, and CSS."
+    "description": "A collection of mini JavaScript projects focused on DOM manipulation, events, and UI logic — built with vanilla JS, HTML, and CSS."
   }
-
 ]
