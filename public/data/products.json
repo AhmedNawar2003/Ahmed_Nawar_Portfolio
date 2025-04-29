@@ -1,52 +1,78 @@
 [
-    {
-      "title": "Clothing App",
-      "live": "https://sprightly-cupcake-71cf4a.netlify.app",
-      "code": "https://github.com/AhmedNawar2003/Clothing_App",
-      "image": "/images/clothing.png",
-      "description": "E-commerce platform built with React, React Router, Bootstrap & Context API."
-    },
-    {
-      "title": "Vegist App",
-      "live": "https://legendary-croissant-a89b71.netlify.app",
-      "code": "https://github.com/AhmedNawar2003/Vegist_App",
-      "image": "/images/vegist.png",
-      "description": "Food ordering platform using HTML, CSS, JS & Bootstrap."
-    },
-    {
-      "title": "FitMeal App",
-      "live": "https://wonderful-quokka-68596a.netlify.app",
-      "code": "https://github.com/AhmedNawar2003/Mealing_Website",
-      "image": "/images/fitmeal.png",
-      "description": "Fitness-focused meal planner using HTML, CSS, Bootstrap, and JavaScript."
-    },
-    {
-      "title": "Mulk App",
-      "live": "https://timely-creponne-7b8f58.netlify.app",
-      "code": "https://github.com/AhmedNawar2003/Mulk_App",
-      "image": "/images/mulk.png",
-      "description": "Real estate listing website with HTML, CSS, and Bootstrap."
-    },
-    {
-      "title": "Burger App",
-      "live": "https://verdant-queijadas-4610c7.netlify.app",
-      "code": "https://github.com/AhmedNawar2003/Burger-project",
-      "image": "/images/burger.png",
-      "description": "Responsive burger shop website using HTML, CSS, and Bootstrap."
-    },
-    {
-      "title": "KinderGarten App",
-      "live": "https://calm-sunshine-fd8918.netlify.app",
-      "code": "https://github.com/AhmedNawar2003/kinden-children-project",
-      "image": "/images/kindergarten.png",
-      "description": "Kindergarten info platform with colorful and kid-friendly UI."
-    },
-    {
-      "title": "Nooni App",
-      "live": "https://elaborate-puffpuff-a536a7.netlify.app",
-      "code": "https://github.com/AhmedNawar2003/Nooni_App",
-      "image": "/images/nooni.png",
-      "description": "Product showcase site optimized for performance and compatibility."
-    }
-  ]
-  
+  {
+    "title": "MY Portfolio",
+    "live": "https://ahmed-nawar-portfolio.vercel.app/",
+    "code": "https://github.com/AhmedNawar2003/Ahmed_Nawar_Portfolio",
+    "image": "/images/portofolio.png",
+    "description": "A sleek and responsive personal portfolio website to showcase my skills, projects, and experience as a Front-End Developer. Built using modern technologies to deliver smooth animations, interactive UI, and an optimized user experience."
+  },
+  {
+    "title": "Clothing App",
+    "live": "https://sprightly-cupcake-71cf4a.netlify.app",
+    "code": "https://github.com/AhmedNawar2003/Clothing_App",
+    "image": "/images/clothing.png",
+    "description": "E-commerce platform built with React, React Router, Bootstrap & Context API."
+  },
+  {
+    "title": "Doctor App",
+    "live": "https://doctor-website-five.vercel.app/",
+    "code": "https://github.com/AhmedNawar2003/Doctor_Website",
+    "image": "/images/Doctor.png",
+    "description": "A responsive and accessible doctor booking interface built using React, Zustand, and TailwindCSS. This project was created as a frontend task and demonstrates clean UI design, reusable components, filtering logic, and smooth animations."
+  },
+  {
+    "title": "Vegist App",
+    "live": "https://legendary-croissant-a89b71.netlify.app",
+    "code": "https://github.com/AhmedNawar2003/Vegist_App",
+    "image": "/images/vegist.png",
+    "description": "Food ordering platform using HTML, CSS, JS & Bootstrap."
+  },
+  {
+    "title": "FitMeal App",
+    "live": "https://wonderful-quokka-68596a.netlify.app",
+    "code": "https://github.com/AhmedNawar2003/Mealing_Website",
+    "image": "/images/fitmeal.png",
+    "description": "Fitness-focused meal planner using HTML, CSS, Bootstrap, and JavaScript."
+  },
+  {
+    "title": "Mulk App",
+    "live": "https://timely-creponne-7b8f58.netlify.app",
+    "code": "https://github.com/AhmedNawar2003/Mulk_App",
+    "image": "/images/mulk.png",
+    "description": "Real estate listing website with HTML, CSS, and Bootstrap."
+  },
+  {
+    "title": "Burger App",
+    "live": "https://verdant-queijadas-4610c7.netlify.app",
+    "code": "https://github.com/AhmedNawar2003/Burger-project",
+    "image": "/images/burger.png",
+    "description": "Responsive burger shop website using HTML, CSS, and Bootstrap."
+  },
+  {
+    "title": "KinderGarten App",
+    "live": "https://calm-sunshine-fd8918.netlify.app",
+    "code": "https://github.com/AhmedNawar2003/kinden-children-project",
+    "image": "/images/kindergarten.png",
+    "description": "Kindergarten info platform with colorful and kid-friendly UI."
+  },
+  {
+    "title": "Nooni App",
+    "live": "https://elaborate-puffpuff-a536a7.netlify.app",
+    "code": "https://github.com/AhmedNawar2003/Nooni_App",
+    "image": "/images/nooni.png",
+    "description": "Product showcase site optimized for performance and compatibility."
+  },
+  {
+    "title": "NextJs_Typescript_Project",
+    "code": "https://github.com/AhmedNawar2003/Next-Js---tailwind-Css",
+    "image": "/images/next-typeScript.jpg",
+    "description":"Modern Hero Section UI for a Next.js & TypeScript project, featuring a clean layout, responsive design, and developer-focused style. Perfect for landing pages, SaaS tools, or personal portfolios using Tailwind CSS and Framer Motion."
+  },
+  {
+    "title": "Js Projects",
+    "code": "https://github.com/AhmedNawar2003/javascript-projects",
+    "image": "/images/js-projects.jpg",
+    "description":"A collection of mini JavaScript projects focused on DOM manipulation, events, and UI logic — built with vanilla JS, HTML, and CSS."
+  }
+
+]
