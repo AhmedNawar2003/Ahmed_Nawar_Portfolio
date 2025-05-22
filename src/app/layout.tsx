@@ -4,6 +4,7 @@ import Footer from "../components/Footer/Footer.jsx";
 import Navbar from "@/components/Navbar/Navbar";
 import { Poppins } from "next/font/google";
 import AnimatedBackground from "@/components/AnimatedBackground";
+import ScrollUpButton from "@/components/ScrollUpButton";
 import { Outfit } from "next/font/google";
 import { Plus_Jakarta_Sans } from "next/font/google";
 
@@ -55,6 +56,7 @@ export default function RootLayout({
         className={`${outfit.className} antialiased bg-slate-900 text-slate-400 text-lg min-h-screen overflow-x-hidden relative`}
       >
         <AnimatedBackground />
+        <ScrollUpButton/>
         <Navbar />
         <main className="max-w-screen-xl mx-auto px-4">{children}</main>
         <Footer />
