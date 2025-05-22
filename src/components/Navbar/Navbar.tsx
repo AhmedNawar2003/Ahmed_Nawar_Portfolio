@@ -41,8 +41,7 @@ export default function Navbar() {
           <FaLaptopCode className="text-blue-400" title="Frontend Developer" />
           <span className="text-[15px] md:text-[18px] font-bold text-white">Ahmed | Front-End Developer</span>
         </Link>
-          {/* <h1 className="text-xl font-bold text-white">Ahmed | Front-End Developer</h1> */}
-          <ul className="hidden md:flex gap-8 capitalize ml-auto">
+          <ul className="hidden md:flex md:justify-center gap-8 capitalize ml-auto">
             {navlinks.map((link, index) => (
               <li key={index}>
                 <Link

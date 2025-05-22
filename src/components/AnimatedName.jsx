@@ -28,7 +28,7 @@ export default function AnimatedName() {
   useEffect(() => {
     const interval = setInterval(() => {
       setKey((prev) => prev + 1);
-    }, 3000); // إعادة كل 3 ثواني
+    }, 3000); 
     return () => clearInterval(interval);
   }, []);
 
