@@ -7,6 +7,13 @@
     "description": "A modern and responsive developer portfolio built with Next.js, TypeScript, and Tailwind CSS — showcasing real-world projects, animations, and clean UI design."
   },
   {
+    "title":"Room Monitor Dashboard",
+    "live" : "https://room-monitor-dashboard.vercel.app",
+    "code" : "https://github.com/AhmedNawar2003/Room-Monitor-Dashboard",
+    "image": "/images/Room_dashboard.png",
+    "description":" Room Monitor Dashboard — a clean, responsive dashboard built with Next.js, TypeScript, Tailwind CSS, and Shadcn UI."
+  },
+  {
     "title": "Clothing App",
     "live": "https://sprightly-cupcake-71cf4a.netlify.app",
     "code": "https://github.com/AhmedNawar2003/Clothing_App",
