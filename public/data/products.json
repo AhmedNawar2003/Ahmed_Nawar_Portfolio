@@ -6,6 +6,13 @@
     "image": "/images/portofolio.png",
     "description": "A modern and responsive developer portfolio built with Next.js, TypeScript, and Tailwind CSS — showcasing real-world projects, animations, and clean UI design."
   },
+ {
+    "title": "QuickPlue ",
+    "live": "https://quick-plue.vercel.app/",
+    "code": "https://github.com/AhmedNawar2003/QuickPlue",
+    "image": "/images/quickplue.png",
+    "description": "QuickPlue – a modern and responsive task management app!."
+  },
   {
     "title":"Room Monitor Dashboard",
     "live" : "https://room-monitor-dashboard.vercel.app",
