@@ -23,7 +23,7 @@ import {
   SiAxios,
 } from "react-icons/si";
 import { MdEmail, MdDesignServices } from "react-icons/md";
-import { GiBearFace } from "react-icons/gi"; // رمز تعبيري للدب كـ Zustand
+import { GiBearFace } from "react-icons/gi"; 
 
 export default function Skills() {
   const skills = [
