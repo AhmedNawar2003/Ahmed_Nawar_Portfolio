@@ -15,7 +15,15 @@ import {
   SiTailwindcss,
   SiRedux,
   SiNextdotjs,
+  SiFramer,
+  SiPostgresql,
+  SiVercel,
+  SiNetlify,
+  SiPrisma,
+  SiAxios,
 } from "react-icons/si";
+import { MdEmail, MdDesignServices } from "react-icons/md";
+import { GiBearFace } from "react-icons/gi"; // رمز تعبيري للدب كـ Zustand
 
 export default function Skills() {
   const skills = [
@@ -34,6 +42,18 @@ export default function Skills() {
     { icon: <SiRedux className="text-purple-700" />, label: "Redux" },
     { icon: <FaGitAlt className="text-orange-500" />, label: "Git" },
     { icon: <FaGithub className="text-white" />, label: "GitHub" },
+    { icon: <SiAxios className="text-indigo-400" />, label: "Axios" },
+    { icon: <SiPrisma className="text-gray-300" />, label: "Prisma" },
+    { icon: <SiPostgresql className="text-blue-600" />, label: "PostgreSQL" },
+    { icon: <SiVercel className="text-white" />, label: "Vercel" },
+    { icon: <SiNetlify className="text-teal-400" />, label: "Netlify" },
+    { icon: <SiFramer className="text-pink-400" />, label: "Framer Motion" },
+    { icon: <GiBearFace className="text-yellow-500" />, label: "Zustand" },
+    { icon: <MdEmail className="text-red-400" />, label: "EmailJS" },
+    {
+      icon: <MdDesignServices className="text-green-400" />,
+      label: "shadcn/ui",
+    },
   ];
 
   return (
