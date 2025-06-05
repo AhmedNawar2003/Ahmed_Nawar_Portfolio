@@ -8,7 +8,7 @@ export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
-  // handle scroll direction
+  // handle scroll direction//
   const handleScroll = () => {
     const currentScrollY = window.scrollY;
     if (currentScrollY > lastScrollY) {
