@@ -22,8 +22,9 @@ export default function Hero() {
             My Name is <AnimatedName />
           </h2>
           <p className="mt-4 md:text-lg text-white capitalize">
-            Front-End Developer Specialized in building responsive web
-            Applications
+            Data Analyst | Frontend Developer Skilled in Python, Excel, SQL,
+            Power BI, React, Next.js. Turning data into insights and building
+            responsive, high-performance web apps.
           </p>
           <Link
             href={"/assets/Ahmed Nawar CV Last Update.pdf"}

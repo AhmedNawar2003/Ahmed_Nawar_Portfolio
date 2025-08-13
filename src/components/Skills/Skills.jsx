@@ -8,6 +8,12 @@ import {
   FaBootstrap,
   FaGitAlt,
   FaGithub,
+  FaPython,
+  FaDatabase,
+  FaTable,
+  FaMicrosoft,
+  FaFileExcel,
+  FaChartBar,
 } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
 import {
@@ -21,12 +27,18 @@ import {
   SiNetlify,
   SiPrisma,
   SiAxios,
+  SiPandas,
+  SiNumpy,
+  SiTableau,
+  SiMysql,
+  SiJupyter,
 } from "react-icons/si";
 import { MdEmail, MdDesignServices } from "react-icons/md";
-import { GiBearFace } from "react-icons/gi"; 
+import { GiBearFace } from "react-icons/gi";
 
 export default function Skills() {
   const skills = [
+    // Existing skills
     { icon: <FaHtml5 className="text-orange-600" />, label: "HTML5" },
     { icon: <FaCss3Alt className="text-blue-600" />, label: "CSS3" },
     { icon: <FaSass className="text-pink-500" />, label: "Sass" },
@@ -53,6 +65,37 @@ export default function Skills() {
     {
       icon: <MdDesignServices className="text-green-400" />,
       label: "shadcn/ui",
+    },
+
+    // New skills
+    {
+      icon: <FaFileExcel className="text-green-500" />,
+      label: "Excel (Advanced)",
+    },
+    { icon: <FaPython className="text-yellow-400" />, label: "Python" },
+    { icon: <SiPandas className="text-white" />, label: "Pandas" },
+    { icon: <SiNumpy className="text-blue-400" />, label: "NumPy" },
+    { icon: <FaDatabase className="text-blue-600" />, label: "SQL" },
+    { icon: <FaChartBar className="text-yellow-500" />, label: "Power BI" },
+    { icon: <SiTableau className="text-blue-400" />, label: "Tableau" },
+    { icon: <FaTable className="text-orange-400" />, label: "Matplotlib" },
+    { icon: <FaTable className="text-teal-300" />, label: "Seaborn" },
+    { icon: <FaMicrosoft className="text-blue-500" />, label: "Power Query" },
+    { icon: <FaMicrosoft className="text-yellow-500" />, label: "DAX" },
+    {
+      icon: <FaChartBar className="text-yellow-500" />,
+      label: "Power BI Data Modeling",
+    },
+    { icon: <SiMysql className="text-blue-500" />, label: "MySQL" },
+    { icon: <SiPostgresql className="text-blue-600" />, label: "PostgreSQL" },
+    { icon: <FaGitAlt className="text-orange-500" />, label: "Git" },
+    {
+      icon: <SiJupyter className="text-orange-400" />,
+      label: "Jupyter Notebooks",
+    },
+    {
+      icon: <FaMicrosoft className="text-blue-500" />,
+      label: "Microsoft Office",
     },
   ];
 
@@ -88,15 +131,12 @@ export default function Skills() {
             transform: translateX(-50%);
           }
         }
-
         .animate-marquee {
           animation: marquee 20s linear infinite;
         }
-
         .animate-spin-slow {
           animation: spin 6s linear infinite;
         }
-
         @keyframes spin {
           0% {
             transform: rotate(0deg);

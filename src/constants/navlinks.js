@@ -1,7 +1,7 @@
 export const navlinks = [
   "about",
   "education",
-  "courses",
+  "Courses & Certifications",
   "projects",
   "skills",
   "contact",
