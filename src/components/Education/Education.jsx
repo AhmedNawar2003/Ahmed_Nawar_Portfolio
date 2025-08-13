@@ -19,7 +19,7 @@ export default function Education() {
                 Monufia University • 2021 – 2025
               </p>
               <p className="text-slate-400 mt-1">
-                Grade: <span className="font-medium text-white me-2">Very Good (B+)</span> GPA: <span className="font-medium text-white">3.45</span>
+                Grade: <span className="font-medium text-white me-2">Very Good (B+)</span> GPA: <span className="font-medium text-white">3.47</span>
               </p>
             </div>
           </div>

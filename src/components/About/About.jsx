@@ -11,7 +11,7 @@ export default function About() {
         <p className="md:text-lg text-slate-400 leading-8 max-w-3xl">
           I'm Ahmed Nawar, a passionate <span className="text-white font-semibold">Frontend Developer</span> with strong experience in building responsive and interactive websites using modern web technologies like <span className="text-white font-semibold">React, Next.js, and Tailwind CSS</span>.  
           <br /><br />
-          I’m always striving to improve user experiences and deliver clean, maintainable code. Currently, I'm a senior student at <span className="text-white font-semibold">Faculty of Computers and Information – Monufia University</span>, expected to graduate in <span className="text-white">2025</span> with a GPA of <span className="text-white">3.45</span>.
+          I’m always striving to improve user experiences and deliver clean, maintainable code. Currently, I'm a senior student at <span className="text-white font-semibold">Faculty of Computers and Information – Monufia University</span>, expected to graduate in <span className="text-white">2025</span> with a GPA of <span className="text-white">3.47</span>.
         </p>
       </div>
     </section>
