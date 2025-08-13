@@ -29,10 +29,18 @@ export default function Hero() {
           <Link
             href={"/assets/Ahmed Nawar CV Last Update.pdf"}
             download
+            className="mb-5 me-2 md:mb-0 inline-flex items-center gap-2 mt-6 bg-blue-500 hover:bg-blue-800 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition-all duration-500"
+          >
+            <FiDownload className="md:text-xl" />{" "}
+            <span className="md:text-xl">FrontEnd CV</span>
+          </Link>
+          <Link
+            href={"/assets/Data Analysis Ahmed Nawar 2.pdf"}
+            download
             className="mb-5 md:mb-0 inline-flex items-center gap-2 mt-6 bg-blue-500 hover:bg-blue-800 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition-all duration-500"
           >
             <FiDownload className="md:text-xl" />{" "}
-            <span className="md:text-xl">Download CV</span>
+            <span className="md:text-xl">Data Analysis CV</span>
           </Link>
         </div>
       </div>
