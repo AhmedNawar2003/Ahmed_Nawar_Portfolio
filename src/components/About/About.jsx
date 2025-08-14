@@ -9,9 +9,29 @@ export default function About() {
         </h2>
 
         <p className="md:text-lg text-slate-400 leading-8 max-w-3xl">
-          I'm Ahmed Nawar, a passionate <span className="text-white font-semibold">Frontend Developer</span> with strong experience in building responsive and interactive websites using modern web technologies like <span className="text-white font-semibold">React, Next.js, and Tailwind CSS</span>.  
-          <br /><br />
-          I’m always striving to improve user experiences and deliver clean, maintainable code. Currently, I'm a senior student at <span className="text-white font-semibold">Faculty of Computers and Information – Monufia University</span>, expected to graduate in <span className="text-white">2025</span> with a GPA of <span className="text-white">3.47</span>.
+          I'm Ahmed Nawar, a passionate{" "}
+          <span className="text-white font-semibold">Frontend Developer</span>{" "}
+          and <span className="text-white font-semibold">Data Analyst</span>{" "}
+          with strong experience in building responsive and interactive websites
+          using modern web technologies like{" "}
+          <span className="text-white font-semibold">
+            React, Next.js, and Tailwind CSS
+          </span>
+          , alongside expertise in analyzing and visualizing data using{" "}
+          <span className="text-white font-semibold">
+            Python, Pandas, NumPy, and data visualization tools like Matplotlib
+            and Power BI
+          </span>
+          .
+          <br />
+          <br />I strive to improve user experiences, deliver clean,
+          maintainable code, and uncover valuable insights from complex datasets
+          to support decision-making. Currently, I'm a senior student at{" "}
+          <span className="text-white font-semibold">
+            Faculty of Computers and Information – Monufia University
+          </span>
+          , expected to graduate in <span className="text-white">2025</span>{" "}
+          with a GPA of <span className="text-white">3.47</span>.
         </p>
       </div>
     </section>

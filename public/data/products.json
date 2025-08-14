@@ -3,7 +3,7 @@
     "title": "MY Portfolio",
     "live": "https://ahmed-nawar-portfolio.vercel.app/",
     "code": "https://github.com/AhmedNawar2003/Ahmed_Nawar_Portfolio",
-    "image": "/images/portofolio.png",
+    "image": "/images/hero.png",
     "description": "A modern and responsive developer portfolio built with Next.js, TypeScript, and Tailwind CSS — showcasing real-world projects, animations, and clean UI design."
   },
   {
